@@ -17,7 +17,7 @@ class Futbolista(Persona, Deportista):
         return self.golesMarcados
 
     def getTarjetasRojas(self):
-        return self.edad
+        return self.tarjetasRojas
 
     def getPiernaHabil(self):
         return self.piernaHabil
